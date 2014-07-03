@@ -1,0 +1,16 @@
+{
+  "name": "json-patch",
+  "version": "0.4.3",
+  "main": "./jsonpatch.js",
+  "homepage": "https://github.com/bruth/jsonpatch-js",
+  "_release": "0.4.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.4.3",
+    "commit": "a7e50cdf9e85fa4de1780a5f3088ea83d436ba82"
+  },
+  "_source": "git://github.com/bruth/jsonpatch-js.git",
+  "_target": "~0.4.3",
+  "_originalSource": "json-patch",
+  "_direct": true
+}

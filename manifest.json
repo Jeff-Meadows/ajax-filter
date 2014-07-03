@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "AJAX Response Filter",
+    "version": "0.1.0",
+    "description": "Filters out unwanted portions of AJAX responses.",
+    "icons": {
+        "128": "img/box_cyan_128.png"
+    },
+    "minimum_chrome_version": "30",
+    "permissions": [
+        "storage",
+        "tabs",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["scripts/eventPage.js"]
+    },
+    "web_accessible_resources": ["scripts/hacked_xhr.js", "bower_components/json-patch/jsonpatch.js"],
+    "options_page": "options.html"
+}
